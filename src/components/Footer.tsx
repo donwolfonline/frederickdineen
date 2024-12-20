@@ -7,7 +7,7 @@ export const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     const t = useTranslations();
-    const { person, social } = renderContent(t);
+    const { social } = renderContent(t);
 
     return (
         <Flex
@@ -24,14 +24,12 @@ export const Footer = () => {
                     onBackground="neutral-strong">
                     <Text
                         onBackground="neutral-weak">
-                        © {currentYear} /
-                    </Text>
-                    <Text paddingX="4">
-                        {person.name}
-                    </Text>
+                        © {currentYear} 
+                    </Text>,
+                    {' '}
                     <Text onBackground="neutral-weak">
                         {/* Usage of this template requires attribution. Please don't remove the link to Once UI. */}
-                        / Build your portfolio with <SmartLink style={{marginLeft: '-0.125rem'}} href="https://once-ui.com/templates/magic-portfolio">Once UI</SmartLink>
+                         Hope you like it! <SmartLink style={{marginLeft: '-0.125rem'}} href="https://frederickdineen.com">Frederick Dineen</SmartLink>
                     </Text>
                 </Text>
                 <Flex
