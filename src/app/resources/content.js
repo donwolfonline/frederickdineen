@@ -80,8 +80,14 @@ const about = {
                 timeframe: '2022 - Present',
                 role: 'Senior Software Engineer',
                 achievements: [
-                    <>Redesigned the UI/UX for the Citrullix Inc. platforms, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+
+                    <>Completed a digital banking system web app and mobile app called the QuinBank.</>,
+                    <>Directs software design and development.</>,
+                    <>Evaluates interface between hardware and software.</>,
+                    <>Design, develop, test, deploy, maintain, and improve the software.</>,
+                    <>Manage project priorities, deadlines, and deliverables.</>,
+                    <>System designing and infrastructure.</>,
+                    <>Implementing new features and bug fixes.</>,
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
@@ -97,8 +103,14 @@ const about = {
                 timeframe: '2018 - 2020',
                 role: 'Software Engineer',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Design, develop, test, deploy, maintain, and improve the software.</>,
+                    <>Manage project priorities, deadlines, and deliverables.</>,
+                    <>System designing and infrastructure.</>,
+                    <>Implementing new features and bug fixes.</>,
+                    <>Collaborate with cross-functional teams to ensure project success.</>,
+                    <>Designing and implementing new features and bug fixes.</>,
+                    <>Collaborate with cross-functional teams to ensure project success.</>,
+
                 ],
                 images: [ ]
             }
@@ -110,7 +122,7 @@ const about = {
         institutions: [
             {
                 name: 'UK Open University',
-                description: <>Studied Electrical & Computer Engineering.</>,
+                description: <>B.S. in Electrical & Computer Engineering.</>,
             },
             {
                 name: 'EC-Council',
@@ -123,7 +135,7 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
+                title: 'Designing',
                 description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
                 // optional: leave the array empty if you don't want to display images
                 images: [
@@ -142,8 +154,35 @@ const about = {
                 ]
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                title: 'Frontend',
+                description: <>Next.Js, React, Node.Js, Javascript, Typescript, Laravel, CodeIgniter, Django, Sanity.io, Angular.js, jQuer, Svelte, Express.js, Symfony, Bootstrap,  MATLAB, ASP.NET Core and more.</>,
+                // optional: leave the array empty if you don't want to display images
+                images: [
+                    {
+                        src: '/images/projects/project-01/cover-04.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                ]
+            },
+            {
+                title: 'Backend',
+                description: <>Java, Ruby, PHP and Python, C#, C & C++
+                Microsoft ASP.NET MVC, Web API.</>,
+                // optional: leave the array empty if you don't want to display images
+                images: [
+                    {
+                        src: '/images/projects/project-01/cover-04.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                ]
+            },
+            {
+                title: 'Working knowledge',
+                description: <>of GO, MERN, Rust, Solidity, Ethereum, MATLAB and Solana.</>,
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
@@ -154,6 +193,7 @@ const about = {
                     },
                 ]
             }
+
         ]
     }
 }

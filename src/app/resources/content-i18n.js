@@ -30,7 +30,7 @@ const createI18nContent = (t) => {
         {
             name: 'LinkedIn',
             icon: 'linkedin',
-            link: 'https://www.linkedin.com/in/donwolfonline/',
+            link: 'www.linkedin.com/in/donwolfonline/',
         },
         {
             name: 'X',
